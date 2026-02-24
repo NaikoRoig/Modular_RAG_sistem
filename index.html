@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular RAG System | IA de Próxima Generación</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">RAG<span>Modular</span></div>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#funciona">Cómo Funciona</a></li>
+            <li><a href="#tecnologia">Tecnología</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <div class="hero-content">
+            <h1>Inteligencia Documental sin Límites</h1>
+            <p>Un sistema RAG modular diseñado para la privacidad, la precisión y la trazabilidad absoluta. Ejecución local con Ollama y Nous-Hermes-2.</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/NaikoRoig/Lector_codigobarras" class="btn-primary">Ver en GitHub</a>
+                <a href="#funciona" class="btn-secondary">Saber más</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="funciona" class="features">
+        <h2>Ingeniería de Precisión</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon">🔍</div>
+                <h3>Búsqueda k-NN + Reranking</h3>
+                <p>No solo recuperamos información; la refinamos con una segunda etapa de Cross-Encoding para garantizar que el contexto sea el más relevante.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🛡️</div>
+                <h3>Privacidad Local</h3>
+                <p>Tus datos nunca salen de tu infraestructura. Todo el procesamiento y la generación se realizan localmente mediante Ollama.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📑</div>
+                <h3>Citas Trazables</h3>
+                <p>Cada respuesta generada por la IA cita explícitamente el origen de los datos en tus documentos. Transparencia total.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="workflow">
+        <div class="workflow-container">
+            <h2>Pipeline de Alta Fidelidad</h2>
+            <div class="steps">
+                <div class="step">
+                    <span>1</span>
+                    <h4>Ingesta Inteligente</h4>
+                    <p>Chunking semántico y embeddings e5-large-v2.</p>
+                </div>
+                <div class="step">
+                    <span>2</span>
+                    <h4>Almacenamiento Híbrido</h4>
+                    <p>Vectores en FAISS y metadatos en PostgreSQL.</p>
+                </div>
+                <div class="step">
+                    <span>3</span>
+                    <h4>Evaluación RAGAS</h4>
+                    <p>Medición continua de relevancia y cobertura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="tecnologia">
+        <p>&copy; 2026 Modular RAG System. Implementado para la Actividad 1 del Examen.</p>
+    </footer>
+</body>
+</html>
